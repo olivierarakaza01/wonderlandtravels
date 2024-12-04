@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonderland Travel Agency </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('ces.jpg'); /* Replace with your background image URL */
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: #fff;
+        }
+        .navbar {
+            overflow: hidden;
+            background-color: rgba(0, 0, 0, 0.8);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: #ffcc00;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .content {
+            background-color: rgba(0, 0, 0, 0.7); /* Transparent background */
+            padding: 20px;
+            margin: 50px auto;
+            border-radius: 10px;
+            max-width: 800px;
+        }
+        h1 {
+            color: #ffcc00;
+            text-align: center;
+        }
+        h2 {
+            color: #ffcc00;
+        }
+        p {
+            color: #ddd;
+        }
+        a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #ffcc00;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        
+                body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: black;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .about-us {
+            text-align: center;
+        }
+        .rating {
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .rating input {
+            display: none;
+        }
+        .rating label {
+            font-size: 2em;
+            color: #ccc;
+            cursor: pointer;
+        }
+        .rating input:checked ~ label {
+            color: #f5b301;
+        }
+        .rating label:hover,
+        .rating label:hover ~ label,
+        .rating input:checked ~ label:hover,
+        .rating input:checked ~ label:hover ~ label {
+            color: #f5b301;
+        }
+ 
+    </style>
+</head>
+<body>
+  
+    <div class="navbar">
+        <a href="home.html">Home</a>
+        <a href="About.html">About Us</a>
+        <a href="Trips.html">Trips</a>
+        <a href="Choose.html">Choose Us</a>
+        <a href="Contacts.html">Contact Us</a>
+    </div>
+
+    <div class="content">
+        <h1>Top Destinations with Wonderland Travel Agency Uganda</h1>
+        <p>Explore the beauty and diversity of Uganda with <strong>Wonderland Travel Agency Uganda</strong>. Here are some must-visit places for your next adventure:</p>
+
+        <h2>1. Bwindi Impenetrable Forest</h2>
+        <img src="Bwindi.jpg" alt="Bwindi Impenetrable Forest"> <!-- Replace with your image URL -->
+        <p>Home to half of the world's mountain gorillas, Bwindi offers a unique opportunity for gorilla trekking. Experience the lush forest, diverse wildlife, and breathtaking scenery. <a href="Bwindi.jpg">Learn more</a></p>
+
+        <h2>2. Murchison Falls National Park</h2>
+        <img src="g.jpg" alt="Murchison Falls"> <!-- Replace with your image URL -->
+        <p>Visit Uganda's largest national park, where the Nile River explodes through a narrow gorge creating the stunning Murchison Falls. Enjoy game drives, boat cruises, and bird watching. <a href="Choose.html">Learn more</a></p>
+
+        <h2>3. Queen Elizabeth National Park</h2>
+        <img src="home.jpg" alt="Queen Elizabeth National Park"> <!-- Replace with your image URL -->
+        <p>Known for its tree-climbing lions and diverse ecosystems, this park offers exceptional wildlife viewing. Explore the Kazinga Channel, lush savannahs, and volcanic craters. <a href="About.html">Learn more</a></p>
+
+        <h2>4. Rwenzori Mountains</h2>
+        <img src="r.jpg" alt="Rwenzori Mountains"> <!-- Replace with your image URL -->
+        <p>Dubbed the "Mountains of the Moon," the Rwenzori range is perfect for adventurous hikers. Discover snow-capped peaks, glaciers, and unique flora and fauna. <a href="Trips.html">Learn more</a></p>
+
+        <h2>5. Jinja - The Source of the Nile</h2>
+        <img src="nile.jpg" alt="Jinja"> <!-- Replace with your image URL -->
+        <p>Known as the adventure capital of East Africa, Jinja offers thrilling activities like white-water rafting, bungee jumping, and kayaking. Visit the source of the Nile for a memorable experience. <a href="Trips.html">Learn more</a></p>
+
+        <p>Ready to explore these amazing destinations? <a href="Contacts.html">Contact us</a> today and let Wonderland Travel Agency Uganda plan your perfect trip!</p>
+        <p>Check out more destinations and travel tips on our <a href="Choose.html">Destinations</a> page.</p>
+    </div>
+    
+       <div class="container">
+         <div class="about-us">
+           <h1>About Us</h1>
+           <p>Welcome to Wonderland Travel Agency! We are dedicated to providing the best travel experiences around the globe. Our team of expert travel consultants is here to help you plan the perfect getaway.</p>
+           <div class="rating">
+             <input type="radio" id="star5" name="rating" value="5"><label for="star5" title="5 stars">☆</label>
+             <input type="radio" id="star4" name="rating" value="4"><label for="star4" title="4 stars">☆</label>
+             <input type="radio" id="star3" name="rating" value="3"><label for="star3" title="3 stars">☆</label>
+             <input type="radio" id="star2" name="rating" value="2"><label for="star2" title="2 stars">☆</label>
+             <input type="radio" id="star1" name="rating" value="1"><label for="star1" title="1 star">☆</label>
+           </div>
+         </div>
+       </div>
+       
+       
+    <script>
+        // Simulate the view count increment
+        window.onload = function() {
+            var viewCountElement = document.getElementById('viewCount');
+            var viewCount = localStorage.getItem('viewCount') || 0;
+            viewCount++;
+            localStorage.setItem('viewCount', viewCount);
+            viewCountElement.textContent = viewCount;
+        }
+    </script>
+
+    <footer>
+        &copy; 2024 Wonderland Travel Agency Uganda. All rights reserved. | <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a>
+        
+    </footer>
+</body>
+</html>

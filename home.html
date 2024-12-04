@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonderland Travel Agency Uganda</title>
+    <link rel="stylesheet" href="home.css">
+    <style>
+     
+
+         body {
+         font-family: Arial, sans-serif;
+         margin: 0;
+         padding: 0;
+         background-color: #f4f4f4;
+         }
+         .container {
+         width: 80%;
+         margin: 0 auto;
+         padding: 20px;
+         background-color: #fff;
+         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+         }
+         .about-us {
+         text-align: center;
+         }
+         .rating {
+         display: inline-block;
+         margin-top: 20px;
+         }
+         .rating input {
+         display: none;
+         }
+         .rating label {
+         font-size: 2em;
+         color: #ccc;
+         cursor: pointer;
+         }
+         .rating input:checked ~ label {
+         color: #f5b301;
+         }
+         .rating label:hover,
+         .rating label:hover ~ label,
+         .rating input:checked ~ label:hover,
+         .rating input:checked ~ label:hover ~ label {
+         color: #f5b301;
+         }
+         
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .about-us {
+            text-align: center;
+        }
+        .rating {
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .rating input {
+            display: none;
+        }
+        .rating label {
+            font-size: 2em;
+            color: #ccc;
+            cursor: pointer;
+        }
+        .rating input:checked ~ label {
+            color: #f5b301;
+        }
+        .rating label:hover,
+        .rating label:hover ~ label,
+        .rating input:checked ~ label:hover,
+        .rating input:checked ~ label:hover ~ label {
+            color: #f5b301;
+        }
+ 
+      </style> 
+</head>
+<body>
+    <header>
+       <img src="v.jpg" width="160px" height="150px" alt="jpg">
+         
+        <div class="gency.jpg">Wonderland Travel Agency Uganda</div>
+        <nav>
+            <ul>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href=Trips.html>Trips</a></li>
+                <li><a href="Choose.html">Choose Us</a></li>
+                <li><a href="Place.html">place to Go</a></li>
+                <li><a href="Contacts.html">Contact Us </a></li>
+            </ul>
+        </nav>
+    </header>
+   <p>
+
+    <section class="hero">
+        <div class="hero-content">
+                      <h1>Welcome to</h1>
+            <h1>WONDERLAND TRAVEL AGENCY</h1>
+                        <h1><p style="color:green">
+                       Your Journey Made Possible</p></h1>
+            <a href="About.html" class="cta">LEARN MORE</a>
+        </div>
+    </section>
+    <h2>
+     WHAT WE OFFER
+    </h2>
+    <h4>
+          <p style="color:black"> Wonderland Travel Agency , We offer travelling people from one place to another , tourism .Touring People about the nature of the environment Windlife tour City tour and culture tour showing the beauty of Uganda
+          </p>
+    </h4>
+
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are dedicated to offering the best travel experiences in Uganda...</p>
+            <div class="mission">
+                <h3>Our Mission</h3>
+                <p>To provide unforgettable travel experiences...</p>
+            </div>
+
+                </div>
+            </div>
+        </section>
+        
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="service-list">
+                <div class="service">
+                    <img src="18.jpg" alt="Service Icon">
+                    <h3>Safari Tours</h3>
+                    <p>Experience the best safari tours in Uganda.</p>
+                </div>
+                <div class="service">
+                    <img src="as.jpg" alt="Service Icon">
+                    <h3>Gorilla Trekking</h3>
+                    <p>Join our guided gorilla trekking tours.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="portfolio">
+            <h2>Our Portfolio</h2>
+            <div class="gallery">
+                <img src="500.jpg" alt="Portfolio Image">
+                <img src="2c.jpg" alt="Portfolio Image">
+            </div>
+        </section>
+        
+        <section id="testimonials">
+            <h2>Testimonials</h2>
+            <div class="testimonial-list">
+                <div class="testimonial">
+                    <p>"Amazing experience with Wonderland Travel Agency!"</p>
+                    <p>- Client Name</p>
+                </div>
+                <div class="testimonial">
+                    <p>"The best travel agency in Uganda."</p>
+                    <p>- Another Client</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Address: 123 Travel St, Kampala, Uganda</p>
+            <p>Phone: +256 784 138 48</p>
+            <p>Email: arakazaolivier789@gmail.com</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    
+     
+        <script>
+          // Simulate the view count increment
+          window.onload = function() {
+            var viewCountElement = document.getElementById('viewCount');
+            var viewCount = localStorage.getItem('viewCount') || 0;
+            viewCount++;
+            localStorage.setItem('viewCount', viewCount);
+            viewCountElement.textContent = viewCount;
+          }
+        </script> 
+       <div class="container">
+         <div class="about-us">
+           <h1>About Us</h1>
+           <p>Welcome to Wonderland Travel Agency! We are dedicated to providing the best travel experiences around the globe. Our team of expert travel consultants is here to help you plan the perfect getaway.</p>
+           <div class="rating">
+             <input type="radio" id="star5" name="rating" value="5"><label for="star5" title="5 stars">☆</label>
+             <input type="radio" id="star4" name="rating" value="4"><label for="star4" title="4 stars">☆</label>
+             <input type="radio" id="star3" name="rating" value="3"><label for="star3" title="3 stars">☆</label>
+             <input type="radio" id="star2" name="rating" value="2"><label for="star2" title="2 stars">☆</label>
+             <input type="radio" id="star1" name="rating" value="1"><label for="star1" title="1 star">☆</label>
+           </div>
+         </div>
+       </div>
+    
+    <footer>
+        <p>&copy; 2024 Wonderland Travel Agency Uganda. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="">Twitter</a>
+            <a href="https://www.google.com/search">Instagram</a>
+        </div>
+        <a href="https://www.google.com/search">Privacy Policy</a> | <a href="#">Terms of Use</a>
+        
+    </footer>
+</body>
+</html>

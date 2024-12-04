@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonderland Travel Agency </title>
+    <link rel="stylesheet" href="Trips.css">
+    <style>
+             body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .about-us {
+            text-align: center;
+        }
+        .rating {
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .rating input {
+            display: none;
+        }
+        .rating label {
+            font-size: 2em;
+            color: #ccc;
+            cursor: pointer;
+        }
+        .rating input:checked ~ label {
+            color: #f5b301;
+        }
+        .rating label:hover,
+        .rating label:hover ~ label,
+        .rating input:checked ~ label:hover,
+        .rating input:checked ~ label:hover ~ label {
+            color: #f5b301;
+        }
+ 
+    </style>
+    
+    
+    
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="v.jpg" alt="Wonderland Travel Agency Logo">
+        </div>
+        <h1>Wonderland Travel Agency Uganda</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                                <li><a href="About.html">About Us</a></li>
+                                    <li><a href="Place.html">Place To Go</a></li>
+                                    
+                <li><a href="Choose.html">Choose Us </a></li>
+                <li><a href="Contacts.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="packages">
+            <h2>Our Travel Packages</h2>
+            <div class="package-grid">
+                <!-- Repeat this block for each package -->
+                <div class="package">
+                    <img src="gorilla.jpg" alt="Gorilla Trekking Adventure">
+                    <h3>Gorilla Trekking Adventure</h3>
+                    <p>in Bwindi Impenetrable National Park</p>
+                    <p class="price">Starting from $1,500 per person</p>
+                    <a href="Contacts.html" class="booking-button">Book Now</a>
+                </div>
+                <div class="package">
+                    <img src="a.jpg" alt="3-day Safari in Queen Elizabeth National Park">
+                    <h3>3-day Safari</h3>
+                    <p>in Queen Elizabeth National Park</p>
+                    <p class="price">Starting from $800 per person</p>
+                    <a href="Contacts.html" class="booking-button">Book Now</a>
+                </div>
+                <div class="package">
+                    <img src="fall.jpg" alt="Murchison Falls National Park 4-day Wildlife Safari">
+                    <h3>Murchison Falls National Park 4-day Wildlife Safari</h3>
+                    <p>Starting from $1,200 per person</p>
+                    <a href="Contacts.html" class="booking-button">Book Now</a>
+                </div>
+                <div class="package">
+                    <img src="ug.png" alt="Cultural Tour of Karamoja Region">
+                    <h3>Cultural Tour of Karamoja Region</h3>
+                    <p>Starting from $500 per person</p>
+                    <a href="Contacts.html" class="booking-button">Book Now</a>
+                </div>
+                <div class="package">
+                    <img src="river.jpg" alt="Nile River Rafting and Camping Experience">
+                    <h3>Nile River Rafting and Camping Experience</h3>
+                    <p>Starting from $300 per person</p>
+                    <a href="Contacts.html" class="booking-button">Book Now</a>
+                </div>
+                <div class="package">
+                    <img src="falls.jpg" alt="Sipi Falls Hiking and Coffee Tour">
+                    <h3>Sipi Falls Hiking and Coffee Tour</h3>
+                    <p>Starting from $150 per person</p>
+                    <a href="Contacts.html" class="booking-button">Book Now</a>
+                </div>
+                <div class="package">
+                    <img src="Jinja.jpg" alt="Jinja City Tour and Source of the Nile Visit">
+                    <h3>Jinja City Tour and Source of the Nile Visit</h3>
+                    <p>Starting from $100 per person</p>
+                    <a href="Contacts.html" class="booking-button">Book Now</a>
+                </div>
+                <div class="package">
+                    <img src="as.jpg" alt="7-day Uganda Wildlife and Gorilla Safari">
+                    <h3>7-day Uganda Wildlife and Gorilla Safari</h3>
+                    <p>Starting from $2,500 per person</p>
+                    <a href="Contacts.html" class="booking-button">Book Now</a>
+                </div>
+                <div class="package">
+                    <img src="x.jpg" alt="Kidepo Valley National Park Safari">
+                    <h3>Kidepo Valley National Park Safari</h3>
+                    <p>Starting from $1,800 per person</p>
+                    <a href="Contacts.html" class="booking-button">Book Now</a>
+                </div>
+                <div class="package">
+                    <img src="mt.png" alt="Mount Elgon Hiking and Nature Exploration">
+                    <h3>Mount Elgon Hiking and Nature Exploration</h3>
+                    <p>Starting from $400 per person</p>
+                    <a href="Contacts.html" class="booking-button">Book Now</a>
+                </div>
+                <div class="package">
+                    <img src="r.jpg" alt="Rwenzori Mountains Trekking Expedition">
+                    <h3>Rwenzori Mountains Trekking Expedition</h3>
+                    <p>Starting from $1,500 per person</p>
+                    <a href="Contacts.html" class="booking-button">Book Now</a>
+                </div>
+                <div class="package">
+                    <img src="land.jpeg" alt="Lake Bunyonyi Boat Cruise and Island Hopping">
+                    <h3>Lake Bunyonyi Boat Cruise and Island Hopping</h3>
+                    <p>Starting from $200 per person</p>
+                    <a href="Contacts.html" class="booking-button">Book Now</a>
+                </div>
+                <div class="package">
+                    <img src="rhino.jpg" alt="Ziwa Rhino Sanctuary and Traditional Ugandan Village Visit">
+                    <h3>Ziwa Rhino Sanctuary and Traditional Ugandan Village Visit</h3>
+                    <p>Starting from $250 per person</p>
+                    <a href="Contacts.html" class="booking-button">Book Now</a>
+                </div>
+                <div class="package">
+                    <img src="Semuliki.jpg" alt="Cultural Tour of Fort Portal and Semuliki National Park">
+                    <h3>Cultural Tour of Fort Portal and Semuliki National Park</h3>
+                    <p>Starting from $700 per person</p>
+                    <a href="Contacts.html" class="booking-button">Book Now</a>
+                </div>
+                <div class="package">
+                    <img src="Kibale.jpg" alt="Kibale Forest Chimpanzee Tracking and Bigodi Wetland Nature Walk">
+                    <h3>Kibale Forest Chimpanzee Tracking and Bigodi Wetland Nature Walk</h3>
+                    <p>Starting from $800 per person</p>
+                    <a href="Contacts.html" class="booking-button">Book Now</a>
+                </div>
+                <div class="package">
+                    <img src="lake.jpg" alt="Weekend Getaway to Lake Mburo National Park">
+                    <h3>Weekend Getaway to Lake Mburo National Park</h3>
+                    <p>Starting from $500 per person</p>
+                    <a href="Contacts.html" class="booking-button">Book Now</a>
+                </div>
+                <div class="package">
+                    <img src="54.jpg" alt="Jinja Adrenaline Activities Package">
+                    <h3>Jinja Adrenaline Activities Package</h3>
+                    <p>(bungee jumping, quad biking, etc.)</p>
+                    <p>Starting from $200 per person</p>
+                    <a href="Contacts.html" class="booking-button">Book Now</a>
+                </div>
+                <div class="package">
+                    <img src="Lake.png" alt="Wildlife Photography Tour at Lake Albert">
+                    <h3>Wildlife Photography Tour at Lake Albert</h3>
+                    <p>Starting from $1,000 per person</p>
+                    <a href="Contacts.html" class="booking-button">Book Now</a>
+                </div>
+                <div class="package">
+                    <img src="cl.jpg" alt="Mount Rwenzori Climbing Expedition">
+                    <h3>Mount Rwenzori Climbing Expedition</h3>
+                    <p>Starting from $1,800 per person</p>
+                    <a href="Contacts.html" class="booking-button">Book Now</a>
+                </div>
+                <div class="package">
+                    <img src="river.jpg" alt="Nile River Cruise and Birdwatching Experience">
+                    <h3>Nile River Cruise and Birdwatching Experience</h3>
+                    <p>Starting from $400 per person</p>
+                    <a href="Contacts.html" class="booking-button">Book Now</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+        </script> 
+       <div class="container">
+         <div class="about-us">
+           <h1>About Us</h1>
+           <p>Welcome to Wonderland Travel Agency! We are dedicated to providing the best travel experiences around the globe. Our team of expert travel consultants is here to help you plan the perfect getaway.</p>
+           <div class="rating">
+             <input type="radio" id="star5" name="rating" value="5"><label for="star5" title="5 stars">☆</label>
+             <input type="radio" id="star4" name="rating" value="4"><label for="star4" title="4 stars">☆</label>
+             <input type="radio" id="star3" name="rating" value="3"><label for="star3" title="3 stars">☆</label>
+             <input type="radio" id="star2" name="rating" value="2"><label for="star2" title="2 stars">☆</label>
+             <input type="radio" id="star1" name="rating" value="1"><label for="star1" title="1 star">☆</label>
+           </div>
+         </div>
+       </div>
+    
+
+
+
+
+
+
+    <footer>
+        <p>&copy; 2024 Wonderland Travel Agency Uganda. All rights reserved.</p>
+                <div class="logo">
+                  <img src="v.jpg" alt="Wonderland Travel Agency Logo">
+    </footer>
+</body>
+</html>
